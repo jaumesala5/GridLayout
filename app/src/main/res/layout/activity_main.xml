@@ -2,69 +2,64 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:rowCount="2"
-    android:columnCount="4"
-    android:orientation="horizontal">
+    android:rowCount="3"
+    android:columnCount="2"
+    >
 
-    <TextView android:text="1"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
+    <TextView
+        android:text="Jaume"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center_vertical|right"
         android:background="@color/colorRed"
-        />
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
 
-    <TextView android:text="2"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp"
-        android:layout_gravity="top"
-        android:textColor="@color/white"
-        android:textSize="15sp"
+    <TextView
+        android:text="Sala"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center_vertical|left"
+        android:background="@color/colorNavy"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:background="@color/colorBlue"
-        />
-    <TextView android:text="3"
-        android:paddingBottom="25dp"
-        android:paddingRight="5dp"
-        android:paddingTop="25dp"
-        android:paddingLeft="5dp"
-        android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+    <TextView android:text="Jaume"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center_vertical|right"
+        android:background="@color/colorYellow"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView android:text="Sala"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center_vertical|left"
+        android:background="@color/colorYellow"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView android:text="Jaume"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center_vertical|right"
         android:background="@color/colorGreen"
-        android:layout_rowSpan="2"
-        />
-    <TextView android:text="4"
-        android:paddingTop="10dp"
-        android:paddingRight="20dp"
-        android:paddingLeft="20dp"
-        android:paddingBottom="10dp"
-        android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:background="@color/colorLime"
+        android:textColor="@color/white"/>
 
-        />
-    <TextView android:text="5"
-        android:background="@color/colorPurple"
-        android:paddingRight="20dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="1dp"
-        android:layout_gravity="top"
-        android:textColor="@color/white"
-        android:textSize="15sp"
+    <TextView android:text="Sala"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center_vertical|left"
+        android:background="@color/colorLime"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_columnSpan="2"
-        />
-    <TextView android:text="6"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:background="@color/colorAqua"
-        />
+        android:textColor="@color/black"/>
+
 </GridLayout>
